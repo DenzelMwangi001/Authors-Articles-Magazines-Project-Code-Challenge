@@ -10,9 +10,16 @@ To set up the database, run the provided setup script with:
 
 bash:
 PYTHONPATH=. python scripts/setup_db.py
+
+To run seed.py run:
+
+bash:
+PYTHONPATH=. python lib/db/seed.py
+
 You can run all tests simply by running:
 
 bash:
 pytest
+
 This project demonstrates best practices in raw SQL usage within Python OOP design, transactional integrity, package organization, and thorough testing to build a reliable content management system for publishing workflows.
 
